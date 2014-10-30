@@ -22,13 +22,13 @@ Patio can be added to an Activity or Fragment using the following XML
 ```
 
 Patio has certain customizable attributes:
-***thumbnailHeight*** defines the thumbnails height.
-***thumbnailWidth*** defines the thumbnails width.
-***thumbnailsContainerPadding*** defines how much padding will be used for the thumbnails container.
-***thumbnailsContainerBackground*** defines a background color for the thumbnails container.
-***maxPictures*** specifies how many pictures can the user add to the Patio view.
-***thumbnailsMessage*** defines a custom string for the views footer. This string can be used with %1$d and %2$d tokens to add a pictures attached / max pictures message
-***actionsTextColor*** defines the text color for each action: Take Picture, Attach Picture, Remove Picture, Clear.
+- ***thumbnailHeight*** defines the thumbnails height.
+- ***thumbnailWidth*** defines the thumbnails width.
+- ***thumbnailsContainerPadding*** defines how much padding will be used for the thumbnails container.
+- ***thumbnailsContainerBackground*** defines a background color for the thumbnails container.
+- ***maxPictures*** specifies how many pictures can the user add to the Patio view.
+- ***thumbnailsMessage*** defines a custom string for the views footer. This string can be used with %1$d and %2$d tokens to add a pictures attached / max pictures message.
+- ***actionsTextColor*** defines the text color for each action: Take Picture, Attach Picture, Remove Picture, Clear.
 
 To add this attributes you must add the following definition to the root view
 ```XML
