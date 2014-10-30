@@ -3,6 +3,7 @@ Patio
 
 A minimalistic Android view widget for selecting multiple images
 
+```
 <com.andressantibanez.android.patio.Patio
   android:id="@+id/patio"
   android:layout_width="match_parent"
@@ -14,3 +15,4 @@ A minimalistic Android view widget for selecting multiple images
   app:maxPictures="3"
   app:thumbnailsMessage="@string/patio_footer"
   app:actionsTextColor="#333"/>
+```
