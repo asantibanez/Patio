@@ -67,3 +67,7 @@ Patio needs the following permissions in your app in order to work properly.
 <uses-permission android:name="android.permission.CAMERA" />
 <uses-feature android:name="android.hardware.camera" />
 ```
+To get an ArrayList of the pictures added to Patio you can call `getThumbnailsPaths()` method.
+```java
+ArrayList<String> thumbnails = mPatio.getThumbnailsPaths();
+```
