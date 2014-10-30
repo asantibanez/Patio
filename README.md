@@ -3,6 +3,8 @@ Patio
 
 Patio is a minimalistic Android view widget for selecting multiple images. 
 
+[Demo Video](http://youtu.be/rg1SD7RO85o)
+
 ## Instructions
 
 Patio can be added to an Activity or Fragment using the following XML
@@ -57,4 +59,11 @@ Also, make sure you register you register your Activity or Fragment to get notif
 ```java
 mPatio = (Patio) findViewById(R.id.patio);
 mPatio.setCallbacksListener(this);
+```
+
+Patio needs the following permissions in your app in order to work properly.
+```XML
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.CAMERA" />
+<uses-feature android:name="android.hardware.camera" />
 ```
