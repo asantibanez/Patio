@@ -1,5 +1,6 @@
 Patio
 =====
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Patio-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/1076)
 
 Patio is a minimalistic Android view widget for selecting multiple images. 
 
