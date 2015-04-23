@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'android-maven'
 
 android {
     compileSdkVersion 21
@@ -19,8 +20,12 @@ android {
     }
 }
 
+repositories {
+    maven { url "https://jitpack.io" }
+}
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.squareup.picasso:picasso:2.3.4'
-    compile files('libs/easyandroidanimationslibrary-v0.5.jar')
+    compile 'com.github.2359media:EasyAndroidAnimations:0.8'
 }
