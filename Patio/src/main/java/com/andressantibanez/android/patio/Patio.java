@@ -238,7 +238,9 @@ public class Patio extends LinearLayout implements View.OnClickListener {
         mThumbnailsContainer.addView(imageView, 0, layoutParams);
         imageView.setOnClickListener(this);
 
+
         mPatioThumbnails.add(new PatioThumbnail(thumbnailPath, imageView));
+        showOrHideThumbnails();
         updateThumbnailsMessage();
     }
 
@@ -331,7 +333,17 @@ public class Patio extends LinearLayout implements View.OnClickListener {
             }
         }
         updateThumbnailsMessage();
+        showOrHideThumbnails();
         checkToolbarsStatus();
+    }
+
+    private void showOrHideThumbnails() {
+        Log.d(TAG, "Quantidade de Thumbnails: " + mPatioThumbnails.size());
+        if(mPatioThumbnails.size() > 0){
+            mThumbnailsWrapper.setVisibility(View.VISIBLE);
+        } else {
+            mThumbnailsWrapper.setVisibility(View.GONE);
+        }
     }
 
     public void checkToolbarsStatus() {
