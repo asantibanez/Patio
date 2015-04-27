@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Patio</string>
+
+    <string name="patio_take_picture">Nova Foto</string>
+    <string name="patio_attach_picture">Adicionar</string>
+    <string name="patio_remove_picture">Remover</string>
+    <string name="patio_action_cancel">Cancelar</string>
+
+    <string name="patio_thumbnails_message">%1$d de %2$d carregadas</string>
+
+</resources>
